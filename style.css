@@ -1,0 +1,60 @@
+
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.guess {
+    display: inline;
+    font-size: 50px;
+    border: .5px solid black;
+    border-radius: 20%;
+    padding: 0px 20px 0px 20px;
+    background-color: rgba(86, 241, 241, .5);
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+body {
+  background-image: url('die.jpg');
+}
+#app{
+  width: 75%;
+  margin-top: 15px;
+  margin-bottom: 15 px;
+  border-radius:50%;
+  background-color: rgba(256, 256, 256, .85)
+}
+#input-parent {
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#player-input {
+  width: 160px;
+  height: 160px;
+  border: 5px solid grey;
+  border-radius: 50%;
+  font-size: 30pt;
+}
+#go-button {
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
